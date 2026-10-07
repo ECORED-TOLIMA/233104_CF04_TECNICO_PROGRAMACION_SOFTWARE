@@ -322,11 +322,11 @@
           span Tipos de JOIN en SQL — representación con datos de ejemplo
         figure
           img.d-none.d-md-block.m-auto(
-            src='@/assets/curso/tema4/8.png',
+            src='@/assets/curso/tema4/8.svg',
             alt='Figura 6 que relaciona los tipos de JOIN en SQL (INNER, LEFT, RIGHT, FULL y CROSS) con tablas de clientes y pedidos, indicando mediante ejemplos qué registros aparecen o se excluyen en cada caso.'
           )
           img.d-block.d-md-none.m-auto(
-            src='@/assets/curso/tema4/9.png',
+            src='@/assets/curso/tema4/9.svg',
             alt=''
           )
 
@@ -342,11 +342,11 @@
           span Esquema relacional de ejemplo — relaciones entre tablas y JOINs
         figure
           img.d-none.d-md-block.m-auto(
-            src='@/assets/curso/tema4/10.png',
+            src='@/assets/curso/tema4/10.svg',
             alt='Figura 7 que contiene un esquema relacional con cinco tablas conectadas por claves foráneas, donde se visualizan los campos, las relaciones entre categorías, productos, clientes, pedidos y detalles de pedidos, y el recorrido de los datos al aplicar JOINs.'
           )
           img.d-block.d-md-none.m-auto(
-            src='@/assets/curso/tema4/11.png',
+            src='@/assets/curso/tema4/11.svg',
             alt=''
           )
 

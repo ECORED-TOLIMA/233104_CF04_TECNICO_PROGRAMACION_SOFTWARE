@@ -9,12 +9,17 @@
 
     p Las funciones SQL son rutinas predefinidas que el motor de base de datos pone a disposición del programador para realizar operaciones sobre los datos directamente en el servidor, sin necesidad de recuperarlos primero a la aplicación para procesarlos. Esta capacidad de procesar datos en el servidor, donde residen, es una de las ventajas más significativas del enfoque relacional: permite realizar transformaciones complejas sobre millones de registros con una eficiencia que sería imposible de lograr procesando los datos en la capa de aplicación, especialmente cuando se trabaja con grandes volúmenes de información.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 El principio que guía el uso de funciones SQL en el servidor es el de reducir el tráfico de red entre la aplicación y la base de datos. En lugar de recuperar millones de registros a la aplicación para filtrar, transformar y calcular en memoria, es mucho más eficiente expresar esas operaciones en SQL y dejar que el motor de base de datos las ejecute donde están los datos, devolviendo solo el resultado final. Este principio, conocido como #[i compute-close-to-data], es especialmente relevante en sistemas distribuidos y aplicaciones de big data, pero aplica igualmente en sistemas transaccionales convencionales.
+    .row.align-items-center.justify-content-center
+      .col-lg-12
+        .row.justify-content-center.mt-4
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center.bg-base(data-aos="fade-right")
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/tema3/1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+              .col-lg
+                p El principio que guía el uso de funciones SQL en el servidor es el de reducir el tráfico de red entre la aplicación y la base de datos. En lugar de recuperar millones de registros a la aplicación para filtrar, transformar y calcular en memoria, es mucho más eficiente expresar esas operaciones en SQL y dejar que el motor de base de datos las ejecute donde están los datos, devolviendo solo el resultado final. Este principio, conocido como #[i compute-close-to-data], es especialmente relevante en sistemas distribuidos y aplicaciones de big data, pero aplica igualmente en sistemas transaccionales convencionales.
+
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -134,35 +139,43 @@
 
     .row.justify-content-center.mt-4
       .col-lg-8
-        //- Tarjeta para SUBSTRING
-        .row.align-items-center.bg-16.tarjeta-comparativa.mb-3(data-aos="fade-right")
-          .col-auto.p-0
-            .bloque-icono.d-flex.d-none.d-lg-block
-              figure.m-0
-                img(src='@/assets/curso/tema3/5.svg', style='width: 60px')
-          .col.bloque-contenido
-            p.mb-1 #[b SUBSTRING]
-            p.mb-0 Extrae una subcadena a partir de una posición de inicio y con una longitud determinada. 
 
-        //- Tarjeta para LEFT
-        .row.align-items-center.bg-16.tarjeta-comparativa.mb-3(data-aos="fade-left")
-          .col-auto.p-0
-            .bloque-icono.d-flex.d-none.d-lg-block
-              figure.m-0
-                img(src='@/assets/curso/tema3/6.svg', style='width: 60px')
-          .col.bloque-contenido
-            p.mb-1 #[b LEFT]
-            p.mb-0 Extrae los primeros N caracteres desde el extremo izquierdo de la cadena. 
+        .row.align-items-center.justify-content-center
+          .col-lg-12
+            .row.justify-content-center.mt-4
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center.bg-16(data-aos="fade-right")
+                  .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema3/5.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  .col-lg
+                    p.mb-1 #[b SUBSTRING]
+                    p.mb-0 Extrae una subcadena a partir de una posición de inicio y con una longitud determinada. 
 
-        //- Tarjeta para RIGHT
-        .row.align-items-center.bg-16.tarjeta-comparativa.mb-3(data-aos="fade-left")
-          .col-auto.p-0
-            .bloque-icono.d-flex.d-none.d-lg-block
-              figure.m-0
-                img(src='@/assets/curso/tema3/7.svg', style='width: 60px')
-          .col.bloque-contenido
-            p.mb-1 #[b RIGHT]
-            p.mb-0 Extrae los últimos N caracteres desde el extremo derecho. 
+
+        .row.align-items-center.justify-content-center.mt-2
+          .col-lg-12
+            .row.justify-content-center.mt-4
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center.bg-16(data-aos="fade-right")
+                  .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema3/6.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  .col-lg
+                    p.mb-1 #[b LEFT]
+                    p.mb-0 Extrae los primeros N caracteres desde el extremo izquierdo de la cadena. 
+
+        .row.align-items-center.justify-content-center.mt-2
+          .col-lg-12
+            .row.justify-content-center.mt-4
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center.bg-16(data-aos="fade-right")
+                  .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema3/7.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  .col-lg
+                    p.mb-1 #[b RIGHT]
+                    p.mb-0 Extrae los últimos N caracteres desde el extremo derecho. 
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -335,11 +348,11 @@
                   template(v-slot:imagen)
                     figure
                       img.d-none.d-md-block.m-auto.p-5(
-                        src='@/assets/curso/tema3/10.png', style="width: 100%"
+                        src='@/assets/curso/tema3/10.svg', style="width: 100%"
                         alt=''
                       )
                       img.d-block.d-md-none.m-auto.p-3(
-                        src='@/assets/curso/tema3/11.png',
+                        src='@/assets/curso/tema3/11.svg',
                         alt=''
                       )
                   
@@ -357,7 +370,7 @@
 
               figure.d-block.d-md-none.mt-3
                 img.m-auto(
-                  src='@/assets/curso/tema3/11.png')
+                  src='@/assets/curso/tema3/11.svg')
 
     .row.justify-content-center
       p.text-center La elección entre estas variantes debe hacerse conscientemente según el análisis que se desea realizar.
@@ -423,11 +436,11 @@
           span Comportamiento de las funciones de agregación — sin vs. con GROUP BY
         figure
           img.d-none.d-md-block.m-auto(
-            src='@/assets/curso/tema3/12.png',
+            src='@/assets/curso/tema3/12.svg',
             alt='Figura 5 que ilustra cómo operan las funciones de agregación sobre un conjunto de datos, comparando el comportamiento sin GROUP BY, donde se obtiene un único resultado global, y con GROUP BY ciudad, donde se generan resultados resumidos para cada grupo de datos.'
           )
           img.d-block.d-md-none.m-auto(
-            src='@/assets/curso/tema3/13.png',
+            src='@/assets/curso/tema3/13.svg',
             alt=''
           )
 

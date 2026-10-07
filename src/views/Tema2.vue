@@ -96,7 +96,8 @@
             figure
               img(src='@/assets/curso/tema2/4.svg', style='width: 150px').m-auto 
 
-        p.text-center Alias de columna
+        p.text-center
+          b Alias de columna
         p Son especialmente útiles cuando el nombre original de la columna es críptico (como nombres heredados de sistemas legados), cuando se utiliza una expresión calculada que no tiene nombre natural (como precio * cantidad), o cuando se desea presentar los datos con un nombre más descriptivo y orientado al usuario final. En la mayoría de los SMBD, si el alias contiene espacios o caracteres especiales, debe encerrarse entre comillas dobles o corchetes según el dialecto SQL utilizado.
 
       //Tarjeta derecha
@@ -106,7 +107,8 @@
             figure
               img(src='@/assets/curso/tema2/5.svg', style='width: 150px').m-auto 
 
-        p.text-center Alias de tabla
+        p.text-center 
+          b Alias de tabla
         p Son fundamentales cuando se trabaja con múltiples tablas en la misma consulta, especialmente en JOINs, porque permiten evitar la ambigüedad cuando dos tablas tienen columnas con el mismo nombre. También acortan significativamente la escritura de las sentencias cuando los nombres de las tablas son largos, reduciendo el riesgo de errores tipográficos. Es una buena práctica usar alias de tabla cortos y nemotécnicos (como 'c' para clientes, 'p' para pedidos, 'pr' para productos) que faciliten la lectura de la consulta.
 
     .row.justify-content-center.mt-4
@@ -157,7 +159,7 @@
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/11.png', alt='', class="w-100 h-100 object-fit-cover")
+                  img(src='@/assets/curso/tema2/13.png', alt='', class="w-100 h-100 object-fit-cover")
             
             p.text-center.mt-3 Además de los operadores de comparación estándar (=, <>, >, <, >=, <=), SQL ofrece tres operadores especiales de filtrado que amplían significativamente las posibilidades de búsqueda: 
 

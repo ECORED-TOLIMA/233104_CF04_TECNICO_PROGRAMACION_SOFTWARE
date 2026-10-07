@@ -4,19 +4,15 @@ export default {
     Description:
       'Este componente formativo desarrolla competencias en lenguaje de manipulación de datos (DML) para bases de datos relacionales. Aborda inserción, consulta, modificación y eliminación de datos, además de JOIN, subconsultas, funciones, procedimientos almacenados y almacenamiento en la nube. Su enfoque fortalece la capacidad para desarrollar soluciones eficientes y correctas de acceso a datos en entornos profesionales reales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-1'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },

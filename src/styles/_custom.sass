@@ -1,9 +1,10 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: engrane 3.5s ease-in-out infinite alternate
     position: absolute
     top: 5%
-    right: 5%
+    right: 0%
+    width: 40%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -31,7 +32,7 @@
     transform: rotate(360deg)
   
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-position: left 60% !important
 
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -39,6 +40,12 @@
 
 .banner-interno__titulo__icono i
   color: $color-primario
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
 figcaption
   font-weight: normal
@@ -50,7 +57,7 @@ figcaption
 .bg
   //colores básicos del componente formativo---------
   &-base 
-    background-color: $color-primario !important //#68EAE0
+    background-color: #7DD3FF !important //#68C6EA
   &-base2
     background-color: $color-secundario //#68C6EA
   &-base3
@@ -60,13 +67,13 @@ figcaption
   &-1
     background-color: #B5F5F0
   &-2
-    background-color: #5AF6EA
+    background-color: #7DD3FF
   &-3
     background-color: #085B55
   &-4
     background-color: #C0E4F6
   &-5
-    background-color: #7DD3FF
+    background-color: #5AF6EA
   &-6
     background-color: #19538D
   &-7
@@ -86,14 +93,16 @@ figcaption
   &-14
     border-left-color: #8CE6FE
   &-15
-    background-color: #C0F6F2
-  &-16
     background-color: #C9E8F7
+  &-16
+    background-color: #C0F6F2
 
   &-17
     background-color: #F2E4EF
   &-17:hover
-     background-color: #5AF6EA !important
+     background-color: #7DD3FF !important
+  &-18
+    background-color: #7DD3FF
 
   //borde redondeado---------
   &-r8
@@ -446,14 +455,14 @@ figcaption
 
 ///cajones de color
 .cajon.color1:before          //color de la pestaña del cajón
-  background-color: #68C6EA
+  background-color: #68EAE0
 .cajon.color1
-  background-color: #C9E8F7 //color del cajón
+  background-color: #C0F6F2 //color del cajón
 
 .cajon.color2:before
-  background-color: #68EAE0
+  background-color: #68C6EA
 .cajon.color2
-  background-color: #C0F6F2
+  background-color: #C9E8F7
 
 .cajon.color3:before
   background-color: #FE93C4
@@ -1010,7 +1019,7 @@ figcaption
       height: auto
     
   &__body 
-    background-color: #68EAE0
+    background-color: #68C6EA
     padding: 40px 30px 30px 30px 
     flex-grow: 1
 
@@ -1039,7 +1048,7 @@ figcaption
   overflow: hidden // Asegura que las esquinas del color turquesa no se salgan
 
   .bloque-icono
-    background-color: #68EAE0 // Color turquesa de la barra lateral
+    background-color: #7DD3FF // Color turquesa de la barra lateral
     width: 90px
     min-height: 90px
     display: flex

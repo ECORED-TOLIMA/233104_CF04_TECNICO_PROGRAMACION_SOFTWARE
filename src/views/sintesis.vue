@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.jpg", alt="En la síntesis se presenta un mapa conceptual que organiza progresivamente los fundamentos del lenguaje SQL y su aplicación en el desarrollo de bases de datos, iniciando con la manipulación básica de datos mediante DML y la estructura del comando SELECT. A continuación, integra el uso de funciones y consultas avanzadas para el análisis y combinación de información, y culmina con los procedimientos almacenados y los escenarios de almacenamiento en la nube, destacando su papel en la reutilización, el rendimiento y la escalabilidad de las soluciones de datos.")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis se presenta un mapa conceptual que organiza progresivamente los fundamentos del lenguaje SQL y su aplicación en el desarrollo de bases de datos, iniciando con la manipulación básica de datos mediante DML y la estructura del comando SELECT. A continuación, integra el uso de funciones y consultas avanzadas para el análisis y combinación de información, y culmina con los procedimientos almacenados y los escenarios de almacenamiento en la nube, destacando su papel en la reutilización, el rendimiento y la escalabilidad de las soluciones de datos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

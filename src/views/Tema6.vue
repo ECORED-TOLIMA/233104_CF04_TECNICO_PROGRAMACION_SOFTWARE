@@ -43,7 +43,7 @@
                       
                       .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                         figure.m-0.p-0.w-100.h-100.d-flex
-                          img(src='@/assets/curso/tema6/2.png', alt='', class="w-100 h-100 object-fit-cover")
+                          img(src='@/assets/curso/tema6/2.svg', alt='', class="w-100 h-100 object-fit-cover")
                 
                       p.mt-2 Las APIs multimodelo representan un paso adicional en la evolución de los servicios de bases de datos en la nube: son sistemas capaces de soportar múltiples modelos de datos (relacional, documental, clave-valor, grafo) sobre un único motor de almacenamiento subyacente, exponiendo APIs diferentes para cada paradigma. Azure Cosmos DB es el ejemplo más conocido, ofreciendo cinco APIs compatibles: SQL (para consultas tipo JSON), MongoDB, Cassandra, Gremlin (grafos) y Table (clave-valor). Amazon Aurora ofrece compatibilidad con MySQL y PostgreSQL en el mismo servicio. Esta convergencia simplifica significativamente la arquitectura de datos de las organizaciones.
 
@@ -93,11 +93,11 @@
           span Ecosistema de bases de datos en la nube por modelo de datos y proveedor cloud
         figure
           img.d-none.d-md-block.m-auto(
-            src='@/assets/curso/tema6/3.png',
+            src='@/assets/curso/tema6/3.svg',
             alt='Figura 9 que presenta una tabla comparativa del ecosistema de servicios de bases de datos en la nube de AWS, Azure y Google Cloud, organizada por modelos de datos como relacional, documental, clave-valor, grafos, series temporales, en memoria, libro mayor y multimodelo. Para cada modelo se listan los servicios más representativos de cada proveedor.'
           )
           img.d-block.d-md-none.m-auto(
-            src='@/assets/curso/tema6/4.png',
+            src='@/assets/curso/tema6/4.svg',
             alt=''
           )
 
@@ -140,7 +140,7 @@
                               .row.d-flex.align-items-center(data-aos="fade-right")
                                 .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                                   figure.m-0.p-0.w-100.h-100.d-flex
-                                    img(src='@/assets/curso/tema6/6.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                                    img(src='@/assets/curso/tema6/6.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                                 .col-lg
                                   p Las bases de datos relacionales como servicio (DBaaS) trasladan el modelo relacional clásico al entorno cloud manteniendo sus propiedades fundamentales, como transacciones ACID, SQL estándar, integridad referencial y soporte para procedimientos almacenados. Su principal ventaja es la automatización de la infraestructura: respaldos automáticos, parches de seguridad, monitoreo, replicación para alta disponibilidad y mecanismos de conmutación por falla forman parte integral del servicio.
                                   p.p-3.bg-13 Además, estos servicios permiten escalar recursos de forma flexible, ya sea aumentando la capacidad de la instancia o incorporando réplicas de lectura. Algunas soluciones avanzadas ofrecen incluso escalabilidad horizontal global con consistencia fuerte, lo que las hace adecuadas para aplicaciones críticas distribuidas a gran escala.
@@ -154,7 +154,7 @@
                               .row.d-flex.align-items-center(data-aos="fade-right")
                                 .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                                   figure.m-0.p-0.w-100.h-100.d-flex
-                                    img(src='@/assets/curso/tema6/7.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                                    img(src='@/assets/curso/tema6/7.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                                 .col-lg
                                   p Las bases de datos documentales almacenan la información en documentos JSON o BSON, sin requerir un esquema rígido, lo que permite manejar estructuras de datos flexibles y en constante evolución. Este enfoque resulta especialmente útil cuando los datos son jerárquicos o presentan variaciones frecuentes entre registros, reduciendo la necesidad de migraciones de esquema complejas.
 
@@ -169,7 +169,7 @@
                               .row.d-flex.align-items-center(data-aos="fade-right")
                                 .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                                   figure.m-0.p-0.w-100.h-100.d-flex
-                                    img(src='@/assets/curso/tema6/8.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                                    img(src='@/assets/curso/tema6/8.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                                 .col-lg
                                   p Las bases de datos clave-valor representan el modelo NoSQL más simple: cada valor se asocia a una clave única, permitiendo accesos extremadamente rápidos. Esta simplicidad las hace ideales para escenarios donde se prioriza el rendimiento de lectura y escritura por encima de la complejidad de las consultas, con latencias en el orden de microsegundos o milisegundos.
 
@@ -184,7 +184,7 @@
                               .row.d-flex.align-items-center(data-aos="fade-right")
                                 .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                                   figure.m-0.p-0.w-100.h-100.d-flex
-                                    img(src='@/assets/curso/tema6/9.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                                    img(src='@/assets/curso/tema6/9.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                                 .col-lg
                                   p Las bases de datos de grafos modelan la información como nodos y relaciones, permitiendo representar de forma natural dominios donde las conexiones entre entidades son clave. A diferencia del modelo relacional, las relaciones son elementos centrales del modelo y se recorren de manera eficiente, incluso cuando el grafo crece en tamaño y complejidad.
 
@@ -199,7 +199,7 @@
                               .row.d-flex.align-items-center(data-aos="fade-right")
                                 .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                                   figure.m-0.p-0.w-100.h-100.d-flex
-                                    img(src='@/assets/curso/tema6/6.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                                    img(src='@/assets/curso/tema6/6.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                                 .col-lg
                                   p Las bases de datos de serie temporal están optimizadas para manejar datos indexados por tiempo, aplicando técnicas especializadas de compresión y consulta para responder eficientemente a rangos temporales, agregaciones y ventanas deslizantes. Son ampliamente utilizadas en monitoreo, IoT, análisis financiero y telemetría.
 

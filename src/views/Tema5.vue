@@ -199,7 +199,7 @@
           span Ciclo de vida de los procedimientos almacenados vs SQL dinámico
         figure
           img.d-none.d-md-block.m-auto(
-            src='@/assets/curso/tema5/5.png',
+            src='@/assets/curso/tema5/5.svg',
             alt='Figura 8 que relaciona un diagrama comparativo del ciclo de vida de un procedimiento almacenado y una sentencia SQL dinámica, mostrando la reutilización del plan de ejecución en caché, la diferencia en parsing y compilación por ejecución, así como las ventajas de rendimiento, tráfico de red y seguridad del procedimiento almacenado.'
           )
           .row.d-block.d-md-none
