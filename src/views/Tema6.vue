@@ -208,7 +208,7 @@
 
     .row.justify-content-center.mt-3
       .col-10
-        p Para finalizar, se presenta la siguiente tabla, cuyo objetivo es integrar de forma sintética los modelos de bases de datos utilizados en entornos cloud, destacando sus fortalezas principales, las limitaciones más relevantes y los escenarios de uso para los que resultan más adecuados. Esta visión comparativa permite identificar rápidamente el modelo que mejor se ajusta a las necesidades técnicas y de negocio de un sistema de información.
+        p Para finalizar, se presenta la siguiente tabla, cuyo objetivo es integrar de forma sintética los modelos de bases de datos utilizados en entornos cloud, destacando sus fortalezas principales, las limitaciones más relevantes y los escenarios de uso para los que resultan más adecuados. Esta visión comparativa permite identificar rápidamente el modelo que mejor se ajusta a las necesidades técnicas y de negocio de un sistema de información: 
         .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Tabla 9
           span Síntesis de modelos de bases de datos en la nube y criterios de uso

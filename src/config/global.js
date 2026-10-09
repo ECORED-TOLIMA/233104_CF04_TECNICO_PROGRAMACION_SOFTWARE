@@ -268,47 +268,47 @@ export default {
   referencias: [
     {
       referencia:
-        'Coronel, C. & Morris, S. (2018). <em>Sistemas de bases de datos: Diseño, implementación y administración</em> (11.ª ed.). Cengage Learning.',
+        'Coronel, C. & Morris, S. (2018). Sistemas de bases de datos: Diseño, implementación y administración (11.ª ed.). Cengage Learning.',
       link: '',
     },
     {
       referencia:
-        'Date, C. J. (2019). <em>Database design and relational theory: Normal forms and all that jazz</em> (2nd ed.). Apress.',
+        'Date, C. J. (2019). Database design and relational theory: Normal forms and all that jazz (2nd ed.). Apress.',
       link: '',
     },
     {
       referencia:
-        'Elmasri, R. & Navathe, S. (2016). <em>Fundamentos de sistemas de bases de datos</em> (7.ª ed.). Pearson Educación.',
+        'Elmasri, R. & Navathe, S. (2016). Fundamentos de sistemas de bases de datos (7.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Forta, B. (2020). <em>SQL in 10 minutes a day, Sams teach yourself</em> (5th ed.). Sams Publishing.',
+        'Forta, B. (2020). SQL in 10 minutes a day, Sams teach yourself (5th ed.). Sams Publishing.',
       link: '',
     },
     {
       referencia:
-        'Microsoft. (2024). <em>Transact-SQL reference (Database Engine).</em> Microsoft Learn. Microsoft Learn – T-SQL Reference.',
+        'Microsoft. (2024). Transact-SQL reference (Database Engine). Microsoft Learn. Microsoft Learn – T-SQL Reference.',
       link: '',
     },
     {
       referencia:
-        'MySQL. (2024). <em>MySQL 8.0 reference manual</em>. Oracle Corporation. MySQL 8.0 Reference Manual',
+        'MySQL. (2024). MySQL 8.0 reference manual. Oracle Corporation. MySQL 8.0 Reference Manual',
       link: '',
     },
     {
       referencia:
-        'PostgreSQL Global Development Group. (2024<em>). PostgreSQL 16 documentation</em>. PostgreSQL 16 Documentation',
+        'PostgreSQL Global Development Group. (2024). PostgreSQL 16 documentation. PostgreSQL 16 Documentation',
       link: '',
     },
     {
       referencia:
-        'Silberschatz, A., Korth, H. F. & Sudarshan, S. (2020). <em>Database system concepts</em> (7th ed.). McGraw-Hill Education.',
+        'Silberschatz, A., Korth, H. F. & Sudarshan, S. (2020). Database system concepts (7th ed.). McGraw-Hill Education.',
       link: '',
     },
     {
       referencia:
-        'Silberschatz, A., Korth, H. F. & Sudarshan, S. (2020). <em>Database system concepts</em> (7th ed.). McGraw-Hill Education.',
+        'Silberschatz, A., Korth, H. F. & Sudarshan, S. (2020). Database system concepts (7th ed.). McGraw-Hill Education.',
       link: '',
     },
   ],
@@ -343,7 +343,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang Pinzón',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -353,7 +358,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Ernesto Navarro Jaimes',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -363,13 +368,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

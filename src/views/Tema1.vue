@@ -19,7 +19,7 @@
             .cajon.color1.p-4
               p El DML es el lenguaje del día a día de cualquier aplicación de #[i software] que trabaje con bases de datos. Cada vez que un usuario registra una venta en un sistema de punto de venta, actualiza su perfil en una red social, cancela un pedido en una tienda en línea o genera un reporte de ventas del mes anterior para la gerencia, está —de manera transparente, sin ser consciente de ello— ejecutando sentencias DML contra la base de datos subyacente. Para el desarrollador de #[i software], comprender profundamente el DML no es solo una cuestión técnica: es comprender cómo el #[i software] que construye interactúa con los datos del negocio, qué impacto tienen sus sentencias sobre el rendimiento del sistema y cómo garantizar la integridad y consistencia de la información en todo momento, incluso cuando múltiples usuarios acceden simultáneamente a los mismos datos.
 
-      p.mt-4.text-center El lenguaje SQL, en su conjunto, se divide en varios sublenguajes especializados según el tipo de operación que realizan:
+      p.mt-4.text-center El lenguaje SQL, en su conjunto, se divide en varios sublenguajes especializados según el tipo de operación que realizan: 
 
     //Tarjetas over
     .row.justify-content-center.mt-4
