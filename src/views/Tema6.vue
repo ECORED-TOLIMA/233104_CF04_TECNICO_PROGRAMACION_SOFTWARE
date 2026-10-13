@@ -89,12 +89,12 @@
     .row.justify-content-center
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
-          h5 Figura 9.
+          h5 Figura 8.
           span Ecosistema de bases de datos en la nube por modelo de datos y proveedor cloud
         figure
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema6/3.svg',
-            alt='Figura 9 que presenta una tabla comparativa del ecosistema de servicios de bases de datos en la nube de AWS, Azure y Google Cloud, organizada por modelos de datos como relacional, documental, clave-valor, grafos, series temporales, en memoria, libro mayor y multimodelo. Para cada modelo se listan los servicios más representativos de cada proveedor.'
+            alt='Figura 8 que presenta una tabla comparativa del ecosistema de servicios de bases de datos en la nube de AWS, Azure y Google Cloud, organizada por modelos de datos como relacional, documental, clave-valor, grafos, series temporales, en memoria, libro mayor y multimodelo. Para cada modelo se listan los servicios más representativos de cada proveedor.'
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema6/4.svg',

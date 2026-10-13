@@ -432,12 +432,12 @@
     .row.justify-content-center
       .col-10
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
-          h5 Figura 5.
+          h5 Figura 4.
           span Comportamiento de las funciones de agregación — sin vs. con GROUP BY
         figure
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema3/12.svg',
-            alt='Figura 5 que ilustra cómo operan las funciones de agregación sobre un conjunto de datos, comparando el comportamiento sin GROUP BY, donde se obtiene un único resultado global, y con GROUP BY ciudad, donde se generan resultados resumidos para cada grupo de datos.'
+            alt='Figura 4 que ilustra cómo operan las funciones de agregación sobre un conjunto de datos, comparando el comportamiento sin GROUP BY, donde se obtiene un único resultado global, y con GROUP BY ciudad, donde se generan resultados resumidos para cada grupo de datos.'
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema3/13.svg',
