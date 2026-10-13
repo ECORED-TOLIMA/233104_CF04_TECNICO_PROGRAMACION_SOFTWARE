@@ -134,7 +134,7 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Tipos de bases de datos en entornos cloud',
+            titulo: 'Tipos de bases de datos en entornos <em>cloud</em>',
             hash: 't_6_2',
           },
         ],

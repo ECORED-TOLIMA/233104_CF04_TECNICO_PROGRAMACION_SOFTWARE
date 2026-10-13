@@ -7,7 +7,7 @@
         span 6
       h1 Escenarios de almacenamiento y bases de datos en la nube
     
-    p La computación en la nube ha transformado radicalmente la manera en que las organizaciones diseñan, despliegan, escalan y mantienen sus soluciones de almacenamiento de datos. Lo que hace apenas una década requería costosas inversiones en servidores físicos, licencias de software, personal especializado en administración de infraestructura y largas esperas para el aprovisionamiento de nuevos recursos, hoy puede realizarse en cuestión de minutos con unos pocos clics en una consola web, con un modelo de pago por uso que elimina las inversiones de capital iniciales y permite ajustar los recursos en tiempo real según la demanda.
+    p La computación en la nube ha transformado radicalmente la manera en que las organizaciones diseñan, despliegan, escalan y mantienen sus soluciones de almacenamiento de datos. Lo que hace apenas una década requería costosas inversiones en servidores físicos, licencias de <em>software</em>, personal especializado en administración de infraestructura y largas esperas para el aprovisionamiento de nuevos recursos, hoy puede realizarse en cuestión de minutos con unos pocos clics en una consola <em>web</em>, con un modelo de pago por uso que elimina las inversiones de capital iniciales y permite ajustar los recursos en tiempo real según la demanda.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -39,7 +39,7 @@
                     .row.d-flex.align-items-center.bg-r8(data-aos="fade-right")
                       .col-lg.p-4
                         .cajon.color1.p-4
-                          p Los servicios DBaaS eliminan algunas de las tareas más tediosas y especializadas de la administración de bases de datos tradicional, permitiendo que los equipos de desarrollo se concentren en el valor de negocio en lugar de en la gestión de la infraestructura. Sin embargo, también presentan ciertos trade-offs: menor control sobre la configuración detallada del motor, dependencia del proveedor de nube (vendor lock-in), y costos que pueden escalar rápidamente si no se dimensiona correctamente la capacidad contratada.
+                          p Los servicios DBaaS eliminan algunas de las tareas más tediosas y especializadas de la administración de bases de datos tradicional, permitiendo que los equipos de desarrollo se concentren en el valor de negocio en lugar de en la gestión de la infraestructura. Sin embargo, también presentan ciertos <em>trade-offs</em>: menor control sobre la configuración detallada del motor, dependencia del proveedor de nube (<em>vendor lock-in</em>), y costos que pueden escalar rápidamente si no se dimensiona correctamente la capacidad contratada.
                       
                       .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                         figure.m-0.p-0.w-100.h-100.d-flex
@@ -81,7 +81,7 @@
               |RETURN otro.nombre, COUNT(p) AS productos_en_comun
               |ORDER BY productos_en_comun DESC LIMIT 5;
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-10
         p.bg-5.bg-r9.text-center.p-3 Con base en lo anterior, la siguiente imagen presenta el ecosistema de bases de datos en la nube según el modelo de datos y el proveedor:
 
@@ -158,7 +158,7 @@
                                 .col-lg
                                   p Las bases de datos documentales almacenan la información en documentos JSON o BSON, sin requerir un esquema rígido, lo que permite manejar estructuras de datos flexibles y en constante evolución. Este enfoque resulta especialmente útil cuando los datos son jerárquicos o presentan variaciones frecuentes entre registros, reduciendo la necesidad de migraciones de esquema complejas.
 
-                                  p.p-3.bg-13 Al agrupar datos relacionados dentro de un mismo documento, se simplifican ciertos patrones de consulta y se evitan operaciones costosas de unión entre tablas. Estas bases de datos ofrecen lenguajes de consulta expresivos, soporte para índices secundarios, búsquedas de texto completo y operaciones geoespaciales, siendo ampliamente utilizadas en aplicaciones web y móviles modernas.
+                                  p.p-3.bg-13 Al agrupar datos relacionados dentro de un mismo documento, se simplifican ciertos patrones de consulta y se evitan operaciones costosas de unión entre tablas. Estas bases de datos ofrecen lenguajes de consulta expresivos, soporte para índices secundarios, búsquedas de texto completo y operaciones geoespaciales, siendo ampliamente utilizadas en aplicaciones <em>web</em> y móviles modernas.
 
                     //-3ra pestaña
                     .row(titulo="Bases de datos clave-valor")

@@ -101,7 +101,7 @@
 
     .row.bg-06.p-md-5.mt-0
       .row.align-items-center.justify-content-center.p-4
-        p La función REPLACE reemplaza todas las ocurrencias de una subcadena buscada dentro de una cadena por otra subcadena de reemplazo. Es una herramienta fundamental para la limpieza y normalización de datos que provienen de fuentes externas o de entradas de usuario, donde frecuentemente se encuentran caracteres no deseados, separadores inconsistentes o formatos que difieren del estándar interno del sistema. REPLACE es sensible a mayúsculas y minúsculas en la mayoría de los SMBD, aunque este comportamiento puede depender de la collation (reglas de comparación de texto) definida para la columna o la base de datos.
+        p La función REPLACE reemplaza todas las ocurrencias de una subcadena buscada dentro de una cadena por otra subcadena de reemplazo. Es una herramienta fundamental para la limpieza y normalización de datos que provienen de fuentes externas o de entradas de usuario, donde frecuentemente se encuentran caracteres no deseados, separadores inconsistentes o formatos que difieren del estándar interno del sistema. REPLACE es sensible a mayúsculas y minúsculas en la mayoría de los SMBD, aunque este comportamiento puede depender de la <em>collation</em> (reglas de comparación de texto) definida para la columna o la base de datos.
         
         .col-lg-10
           .row.align-items-center.justify-content-center
@@ -399,7 +399,7 @@
 
     .titulo-tres: h3 SUM, AVG, MAX y MIN — Análisis numérico
 
-    p Las funciones SUM, AVG, MAX y MIN son las herramientas fundamentales para el análisis cuantitativo de datos. SUM calcula la suma total de los valores de una columna para el grupo, ignorando los NULL. AVG calcula el promedio aritmético de los valores no nulos. MAX y MIN devuelven el valor máximo y mínimo respectivamente, y funcionan no solo con datos numéricos sino también con fechas (devuelven la fecha más reciente o más antigua) y con cadenas de texto (devuelven el valor mayor o menor según el orden alfabético o de collation definido).
+    p Las funciones SUM, AVG, MAX y MIN son las herramientas fundamentales para el análisis cuantitativo de datos. SUM calcula la suma total de los valores de una columna para el grupo, ignorando los NULL. AVG calcula el promedio aritmético de los valores no nulos. MAX y MIN devuelven el valor máximo y mínimo respectivamente, y funcionan no solo con datos numéricos sino también con fechas (devuelven la fecha más reciente o más antigua) y con cadenas de texto (devuelven el valor mayor o menor según el orden alfabético o de <em>collation</em> definido).
 
     .row.justify-content-center
       .col-lg-10

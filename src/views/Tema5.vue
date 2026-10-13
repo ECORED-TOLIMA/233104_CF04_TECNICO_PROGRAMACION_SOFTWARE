@@ -223,7 +223,7 @@
             .cajon.color1.p-4
               .row.align-items-start.mt-4
                 .col
-                  p La gestión correcta de parámetros incluye también la validación de los valores recibidos: verificar que los parámetros obligatorios no sean NULL, que los valores numéricos estén en los rangos aceptables y que los identificadores proporcionados hagan referencia a registros que existan en las tablas correspondientes. Esta validación temprana (fail fast) evita que el procedimiento ejecute operaciones costosas solo para descubrir al final que los datos de entrada son inválidos.
+                  p La gestión correcta de parámetros incluye también la validación de los valores recibidos: verificar que los parámetros obligatorios no sean NULL, que los valores numéricos estén en los rangos aceptables y que los identificadores proporcionados hagan referencia a registros que existan en las tablas correspondientes. Esta validación temprana (<em>fail fast</em>) evita que el procedimiento ejecute operaciones costosas solo para descubrir al final que los datos de entrada son inválidos.
                 
                 .col-lg-2.mb-lg-0.mb-4.d-none.d-md-block
                   figure(data-aos="fade-down")
@@ -414,35 +414,35 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Nomenclatura consistente y descriptiva. ',
+        titulo: 'Nomenclatura consistente y descriptiva',
         texto:
           'Definir un estándar de nombres claro (prefijos, verbos y entidades) permite identificar rápidamente el propósito del procedimiento, facilita la búsqueda en el catálogo y mejora la comprensión del código por parte de otros desarrolladores.',
         imagen: require('@/assets/curso/tema5/19.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Validación temprana de parámetros.',
+        titulo: 'Validación temprana de parámetros',
         texto:
           'Comprobar valores nulos, rangos inválidos o formatos incorrectos al inicio del procedimiento evita ejecuciones innecesarias, reduce el consumo de recursos y permite detectar errores de forma temprana.',
         imagen: require('@/assets/curso/tema5/20.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Uso de transacciones explícitas.',
+        titulo: 'Uso de transacciones explícitas',
         texto:
           'En operaciones que afectan múltiples tablas, el manejo explícito de transacciones garantiza la atomicidad y consistencia de los datos, asegurando que los cambios se confirmen o se reviertan de manera controlada ante fallos.',
         imagen: require('@/assets/curso/tema5/21.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Manejo estructurado de errores.',
+        titulo: 'Manejo estructurado de errores',
         texto:
           'Implementar bloques de control de errores permite capturar excepciones, registrar información relevante y devolver mensajes claros al llamador, lo que mejora la confiabilidad y facilita el diagnóstico de problemas.',
         imagen: require('@/assets/curso/tema5/22.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Documentación interna del procedimiento.',
+        titulo: 'Documentación interna del procedimiento',
         texto:
           'Incluir comentarios sobre el propósito, los parámetros, las reglas de negocio y los cambios realizados facilita el mantenimiento a largo plazo y permite que cualquier miembro del equipo comprenda y modifique el procedimiento con menor riesgo.',
         imagen: require('@/assets/curso/tema5/23.png'),

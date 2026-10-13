@@ -256,6 +256,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Es importante comprender la diferencia entre DELETE, TRUNCATE TABLE y DROP TABLE, tres operaciones que pueden confundirse, pero tienen consecuencias muy diferentes. DELETE elimina los registros que cumplen la condición (o todos si no hay WHERE), activa los #[i triggers] definidos en la tabla, puede revertirse dentro de una transacción y registra cada eliminación en el log de transacciones. TRUNCATE TABLE elimina todos los registros de una tabla de manera mucho más eficiente (sin registrar cada fila en el log), pero no puede usarse con condiciones, no activa #[i triggers] y en la mayoría de los SMBD no puede revertirse fácilmente. DROP TABLE elimina la tabla completa junto con todos sus datos, índices y definiciones.
 
+    p.mt-4 En muchos sistemas empresariales se implementa el patrón de eliminación lógica (soft delete) en lugar de la eliminación física: en lugar de ejecutar DELETE, se actualiza un campo booleano (como 'activo' o 'eliminado') que indica que el registro ya no debe aparecer en las consultas normales. Esta práctica preserva el historial de datos, facilita la auditoría, y permite recuperar registros eliminados por error. El costo es un mayor volumen de datos en la tabla y la necesidad de incluir siempre el filtro del campo de estado en todas las consultas. 
+
     .row.justify-content-center.mt-4
       .col-lg-10
         .etiqueta-barra.mb-3
@@ -362,7 +364,7 @@
             
             .row.d-flex.align-items-center.bg-16(data-aos="fade-right")
               .col-lg.p-4
-                p La potencia del SELECT radica en su capacidad de combinar múltiples cláusulas en una sola sentencia para filtrar, ordenar, agrupar, calcular y presentar datos de maneras muy sofisticadas. Una sentencia SELECT bien construida puede reemplazar decenas de líneas de código de aplicación, realizando en el motor de base de datos cálculos que serían mucho más lentos e ineficientes si se hicieran en la capa de aplicación después de recuperar los datos crudos. Esta es una de las razones fundamentales por las que aprender a escribir sentencias SELECT eficientes y correctas es una de las competencias más valiosas que un desarrollador de software puede realizar a lo largo de su carrera profesional.
+                p La potencia del SELECT radica en su capacidad de combinar múltiples cláusulas en una sola sentencia para filtrar, ordenar, agrupar, calcular y presentar datos de maneras muy sofisticadas. Una sentencia SELECT bien construida puede reemplazar decenas de líneas de código de aplicación, realizando en el motor de base de datos cálculos que serían mucho más lentos e ineficientes si se hicieran en la capa de aplicación después de recuperar los datos crudos. Esta es una de las razones fundamentales por las que aprender a escribir sentencias SELECT eficientes y correctas es una de las competencias más valiosas que un desarrollador de <em>software</em> puede realizar a lo largo de su carrera profesional.
               
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
