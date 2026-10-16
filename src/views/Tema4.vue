@@ -450,7 +450,7 @@
       .col-lg-12
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/J_r_bls2Mc0?si=bdxRE0U702WZwjSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/71WjVtyvVQc?si=Dtx4cNftcVtciJ-r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>
