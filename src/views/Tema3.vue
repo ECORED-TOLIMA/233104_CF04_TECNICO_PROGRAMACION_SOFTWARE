@@ -444,6 +444,8 @@
             alt=''
           )
 
+    p.mt-4 De igual manera, se presenta la siguiente tabla que resume las funciones de agregación con su descripción completa, comportamiento frente a NULL y ejemplos de uso en análisis empresariales reales del contexto colombiano:
+
     .row.justify-content-center
       .col-lg-10
         .row.align-items-center

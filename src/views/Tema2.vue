@@ -26,7 +26,7 @@
 
     .titulo-tres.mt-4: h3 ALL y DISTINCT — Control de unicidad en el resultado
 
-    p Las palabras clave ALL y DISTINCT son modificadores que se colocan inmediatamente después de la palabra SELECT y controlan si el resultado de la consulta incluye o no filas duplicadas. Ambas se pueden representan lo siguiente:
+    p Las palabras clave ALL y DISTINCT son modificadores que se colocan inmediatamente después de la palabra SELECT y controlan si el resultado de la consulta incluye o no filas duplicadas. Ambas pueden representar lo siguiente:
 
     //Tarjetas icono lateral izquierdo
     .row.justify-content-center.mb-5.mt-4

@@ -299,7 +299,7 @@
               |   ELSE
               |     ROLLBACK TRANSACTION;
 
-        p.mt-3 Basado en lo anterior, la siguiente tabla resume los tres comandos de modificación del DML con su sintaxis básica, el efecto que producen sobre la base de datos y las precauciones más importantes que debe tener el desarrollador al utilizarlos en entornos reales:
+        p.mt-3 Basado en lo anterior, la siguiente tabla resume los principales comandos de modificación del DML, incluyendo una variante de inserción y la instrucción TRUNCATE, con su sintaxis básica, el efecto que producen sobre la base de datos y las precauciones más importantes que debe tener el desarrollador al utilizarlos en entornos reales:
 
     .row.justify-content-center
       .col-lg-auto

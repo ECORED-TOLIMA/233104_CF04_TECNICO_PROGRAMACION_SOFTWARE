@@ -51,7 +51,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Sintaxis y cláusulas del Comando SELECT',
+        titulo: 'Sintaxis y cláusulas del comando SELECT',
         desarrolloContenidos: true,
         subMenu: [
           {

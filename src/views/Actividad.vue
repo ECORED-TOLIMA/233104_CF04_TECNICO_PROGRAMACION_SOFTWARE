@@ -204,7 +204,7 @@ export default {
             {
               id: 'c',
               texto:
-                'COUNT() cuenta todas las filas incluyendo NULLs; COUNT(columna) excluye filas donde esa columna es NULL..',
+                'COUNT() cuenta todas las filas incluyendo NULLs; COUNT(columna) excluye filas donde esa columna es NULL.',
               esCorrecta: true,
             },
             {
